@@ -19193,7 +19193,7 @@ module.exports = function (Chart) {
 						index
 						);
 				upperWidth = elementData.val * dwRatio;
-				bottomWidth = nextElement ? nextElement.val * dwRatio : me.topWidth;
+				bottomWidth = nextElement ? nextElement.val * dwRatio : upperWidth;
 			}
 
 			y = chartArea.top + elementData.orgIndex * (elHeight + gap);
